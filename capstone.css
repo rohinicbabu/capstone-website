@@ -1,0 +1,91 @@
+marquee
+{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+h1
+{
+    background-color: #00008b;
+    color: white;
+    font-size: xx-large;
+    width: 100;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 45px;
+    height: 100px;
+}
+h2
+{
+  color: black;
+  background-color: antiquewhite;
+  height: 50px;
+  font-weight: 1000;
+  margin: 25px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 1000px;
+    width: 200px;
+    height: 2000px;
+    background-color: cyan;
+    font-size: xx-large;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 80px 10px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: cornsilk;
+    color: rebeccapurple;
+  }
+  body {
+    margin: 10;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10 10px;
+  }
+  .row {margin: 25px;}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 100px;
+    text-align: center;
+    font-size: x-large;
+  }
+  table
+  {
+    background-color: #00008b;
+    color: white;
+    padding: 20px;
+  }
+  a
+  {
+    margin: 30px;
+  }
